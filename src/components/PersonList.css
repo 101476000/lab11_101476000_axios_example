@@ -1,0 +1,26 @@
+.header-bar {
+  background-color: #28a745;    
+  border-radius: 4px;
+}
+
+.user-card {
+  background-color: #00a2b3;    
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.user-card + .user-card {
+  margin-top: 1rem;
+}
+
+.user-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-body p {
+  margin-bottom: 0.3rem;
+}
